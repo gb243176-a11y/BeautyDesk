@@ -1,0 +1,154 @@
+/* =================================
+   BeautyDesk - Termos de Uso
+================================= */
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Inter',sans-serif;
+}
+
+
+
+body{
+
+    background:#f8fafc;
+    color:#1e293b;
+
+}
+
+
+
+
+
+/* HEADER */
+
+.top{
+
+    width:100%;
+    padding:25px 8%;
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+
+
+.top h2{
+
+    color:#2563eb;
+    font-size:28px;
+
+}
+
+
+
+.top a{
+
+    color:#2563eb;
+    text-decoration:none;
+    font-weight:700;
+
+}
+
+
+
+
+
+/* CONTEÚDO */
+
+.termos{
+
+    max-width:900px;
+    margin:60px auto;
+    background:white;
+    padding:45px;
+    border-radius:25px;
+    box-shadow:0 15px 30px rgba(0,0,0,.06);
+
+}
+
+
+
+
+
+.termos h1{
+
+    text-align:center;
+    color:#2563eb;
+    font-size:42px;
+    margin-bottom:25px;
+
+}
+
+
+
+
+
+.termos h2{
+
+    margin-top:30px;
+    margin-bottom:12px;
+    color:#2563eb;
+    font-size:22px;
+
+}
+
+
+
+
+
+.termos p{
+
+    color:#64748b;
+    line-height:1.7;
+    font-size:16px;
+
+}
+
+
+
+
+
+/* FOOTER */
+
+footer{
+
+    text-align:center;
+    background:white;
+    padding:30px;
+    color:#64748b;
+    margin-top:50px;
+
+}
+
+
+
+
+
+/* RESPONSIVO */
+
+@media(max-width:700px){
+
+
+.termos{
+
+    margin:30px 20px;
+    padding:25px;
+
+}
+
+
+
+.termos h1{
+
+    font-size:32px;
+
+}
+
+
+}

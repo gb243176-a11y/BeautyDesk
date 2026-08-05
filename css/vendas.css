@@ -1,0 +1,314 @@
+/* =================================
+   BeautyDesk - Página de Vendas
+================================= */
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Inter',sans-serif;
+}
+
+
+body{
+
+    background:#f8fafc;
+    color:#1e293b;
+
+}
+
+
+
+/* HEADER */
+
+.top{
+
+    width:100%;
+    padding:25px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:white;
+
+}
+
+
+.top h2{
+
+    color:#2563eb;
+    font-size:28px;
+
+}
+
+
+.top a{
+
+    text-decoration:none;
+    color:#2563eb;
+    font-weight:700;
+
+}
+
+
+
+/* HERO */
+
+.hero{
+
+    min-height:550px;
+    padding:80px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:40px;
+
+}
+
+
+.hero-text{
+
+    max-width:600px;
+
+}
+
+
+.hero-text h1{
+
+    font-size:48px;
+    line-height:1.2;
+    margin-bottom:20px;
+
+}
+
+
+.hero-text p{
+
+    font-size:20px;
+    color:#64748b;
+    margin-bottom:35px;
+
+}
+
+
+
+/* BOTÃO */
+
+.btn{
+
+    display:inline-block;
+    background:#2563eb;
+    color:white;
+    padding:16px 35px;
+    border-radius:12px;
+    text-decoration:none;
+    font-weight:700;
+
+}
+
+
+.btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+
+
+/* CARD HERO */
+
+.hero-card{
+
+    background:#2563eb;
+    color:white;
+    padding:50px;
+    border-radius:25px;
+    text-align:center;
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+
+}
+
+
+.hero-card h3{
+
+    font-size:35px;
+    margin-bottom:15px;
+
+}
+
+
+
+/* BENEFÍCIOS */
+
+.beneficios{
+
+    padding:60px 8%;
+    text-align:center;
+
+}
+
+
+.beneficios h2{
+
+    font-size:36px;
+    margin-bottom:40px;
+
+}
+
+
+
+.cards{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+
+}
+
+
+.card{
+
+    background:white;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.06);
+
+}
+
+
+.card h3{
+
+    margin-bottom:15px;
+    color:#2563eb;
+
+}
+
+
+
+/* PLANO */
+
+.plano{
+
+    padding:70px 8%;
+    text-align:center;
+
+}
+
+
+
+.plano h2{
+
+    font-size:36px;
+    margin-bottom:40px;
+
+}
+
+
+
+.price-card{
+
+    max-width:400px;
+    margin:auto;
+    background:white;
+    padding:40px;
+    border-radius:25px;
+    box-shadow:0 15px 30px rgba(0,0,0,.08);
+
+}
+
+
+.price-card h1{
+
+    font-size:45px;
+    color:#2563eb;
+    margin:20px 0;
+
+}
+
+
+.price-card span{
+
+    font-size:18px;
+    color:#64748b;
+
+}
+
+
+.price-card ul{
+
+    list-style:none;
+    text-align:left;
+    margin:30px 0;
+
+}
+
+
+.price-card li{
+
+    padding:10px 0;
+
+}
+
+
+.price-card button{
+
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:12px;
+    background:#2563eb;
+    color:white;
+    font-size:17px;
+    font-weight:700;
+    cursor:pointer;
+
+}
+
+
+.price-card button:hover{
+
+    background:#1d4ed8;
+
+}
+
+
+
+/* FOOTER */
+
+footer{
+
+    text-align:center;
+    padding:30px;
+    background:white;
+    color:#64748b;
+
+}
+
+
+
+/* RESPONSIVO */
+
+@media(max-width:900px){
+
+.hero{
+
+    flex-direction:column;
+    text-align:center;
+
+}
+
+
+.hero-text h1{
+
+    font-size:36px;
+
+}
+
+
+.top{
+
+    padding:20px;
+
+}
+
+}

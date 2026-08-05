@@ -1,0 +1,232 @@
+/* =================================
+   BeautyDesk - Dashboard
+================================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Inter',sans-serif;
+}
+
+body{
+    display:flex;
+    background:#f8fafc;
+    color:#1e293b;
+}
+
+/* MENU LATERAL */
+
+.sidebar{
+
+    width:250px;
+    height:100vh;
+    background:#2563eb;
+    color:white;
+    padding:30px 20px;
+    position:fixed;
+
+}
+
+.sidebar h2{
+
+    text-align:center;
+    margin-bottom:40px;
+    font-size:28px;
+
+}
+
+.sidebar ul{
+
+    list-style:none;
+
+}
+
+.sidebar li{
+
+    padding:15px;
+    margin-bottom:10px;
+    border-radius:12px;
+    cursor:pointer;
+    transition:.3s;
+
+}
+
+.sidebar li:hover,
+.sidebar .active{
+
+    background:rgba(255,255,255,.18);
+
+}
+
+.sidebar a{
+
+    color:white;
+    text-decoration:none;
+
+}
+
+
+/* ÁREA PRINCIPAL */
+
+.main{
+
+    margin-left:250px;
+    width:calc(100% - 250px);
+    padding:40px;
+
+}
+
+
+/* TOPO */
+
+header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:40px;
+
+}
+
+header h1{
+
+    font-size:32px;
+
+}
+
+.user{
+
+    background:white;
+    padding:12px 20px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.06);
+
+}
+
+
+/* CARDS */
+
+.cards{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    margin-bottom:40px;
+
+}
+
+
+.card{
+
+    background:white;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 10px 20px rgba(0,0,0,.06);
+    transition:.3s;
+
+}
+
+
+.card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+
+.card h3{
+
+    color:#64748b;
+    margin-bottom:15px;
+
+}
+
+
+.card strong{
+
+    font-size:35px;
+    color:#2563eb;
+
+}
+
+
+/* TABELA */
+
+.resumo{
+
+    background:white;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 10px 20px rgba(0,0,0,.06);
+
+}
+
+
+.resumo h2{
+
+    margin-bottom:20px;
+
+}
+
+
+table{
+
+    width:100%;
+    border-collapse:collapse;
+
+}
+
+
+th{
+
+    background:#eff6ff;
+    padding:15px;
+    text-align:left;
+
+}
+
+
+td{
+
+    padding:15px;
+    border-bottom:1px solid #e2e8f0;
+
+}
+
+
+/* RESPONSIVO */
+
+@media(max-width:800px){
+
+.sidebar{
+
+    width:80px;
+
+}
+
+.sidebar h2{
+
+    font-size:14px;
+
+}
+
+
+.main{
+
+    margin-left:80px;
+    width:calc(100% - 80px);
+    padding:20px;
+
+}
+
+
+header{
+
+    flex-direction:column;
+    align-items:flex-start;
+    gap:15px;
+
+}
+
+}

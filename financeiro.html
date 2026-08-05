@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Financeiro | BeautyDesk</title>
+
+<link rel="stylesheet" href="css/financeiro.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<div class="sidebar">
+
+<h2>BeautyDesk</h2>
+
+
+<ul>
+
+<li>
+<a href="dashboard.html">📊 Dashboard</a>
+</li>
+
+
+<li>
+<a href="agenda.html">📅 Agenda</a>
+</li>
+
+
+<li>
+<a href="clientes.html">👥 Clientes</a>
+</li>
+
+
+<li>
+<a href="servicos.html">💇 Serviços</a>
+</li>
+
+
+<li class="active">
+💰 Financeiro
+</li>
+
+
+<li>Sair</li>
+
+
+</ul>
+
+</div>
+
+
+
+
+<div class="main">
+
+
+<header>
+
+<h1>Financeiro</h1>
+
+</header>
+
+
+
+
+<section class="cards">
+
+
+<div class="card">
+
+<h3>Total recebido</h3>
+
+<strong id="totalRecebido">
+
+R$ 0,00
+
+</strong>
+
+</div>
+
+
+<div class="card">
+
+<h3>Quantidade de vendas</h3>
+
+<strong id="totalVendas">
+
+0
+
+</strong>
+
+</div>
+
+
+</section>
+
+
+
+
+<section class="box">
+
+
+<h2>Registrar pagamento</h2>
+
+
+<form id="financeiroForm">
+
+
+<input
+
+type="text"
+
+id="clientePagamento"
+
+placeholder="Cliente"
+
+required
+
+>
+
+
+<input
+
+type="number"
+
+id="valorPagamento"
+
+placeholder="Valor (R$)"
+
+step="0.01"
+
+required
+
+>
+
+
+
+<button type="submit">
+
+Adicionar
+
+</button>
+
+
+</form>
+
+
+</section>
+
+
+
+
+<section class="box">
+
+
+<h2>Histórico</h2>
+
+
+<table>
+
+
+<thead>
+
+<tr>
+
+<th>Cliente</th>
+
+<th>Valor</th>
+
+</tr>
+
+</thead>
+
+
+<tbody id="listaFinanceiro">
+
+
+</tbody>
+
+
+</table>
+
+
+</section>
+
+
+
+</div>
+
+
+
+<script src="js/financeiro.js"></script>
+
+
+</body>
+
+
+</html>

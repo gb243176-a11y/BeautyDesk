@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Agenda | BeautyDesk</title>
+
+<link rel="stylesheet" href="css/agenda.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<div class="sidebar">
+
+<h2>BeautyDesk</h2>
+
+
+<ul>
+
+<li>
+<a href="dashboard.html">📊 Dashboard</a>
+</li>
+
+
+<li class="active">
+📅 Agenda
+</li>
+
+
+<li>
+<a href="clientes.html">👥 Clientes</a>
+</li>
+
+
+<li>Sair</li>
+
+
+</ul>
+
+</div>
+
+
+
+<div class="main">
+
+
+<header>
+
+<h1>Agenda</h1>
+
+</header>
+
+
+
+<section class="box">
+
+
+<h2>Novo Agendamento</h2>
+
+
+<form id="agendaForm">
+
+
+<input 
+type="text"
+id="cliente"
+placeholder="Nome do cliente"
+required>
+
+
+<input
+type="date"
+id="data"
+required>
+
+
+<input
+type="time"
+id="hora"
+required>
+
+
+
+<input
+type="text"
+id="servico"
+placeholder="Serviço"
+required>
+
+
+
+<button type="submit">
+
+Salvar Agendamento
+
+</button>
+
+
+</form>
+
+
+</section>
+
+
+
+<section class="box">
+
+
+<h2>Agendamentos</h2>
+
+
+<table>
+
+
+<thead>
+
+<tr>
+
+<th>Cliente</th>
+
+<th>Data</th>
+
+<th>Hora</th>
+
+<th>Serviço</th>
+
+</tr>
+
+</thead>
+
+
+<tbody id="listaAgenda">
+
+
+</tbody>
+
+
+</table>
+
+
+</section>
+
+
+
+</div>
+
+
+
+<script src="js/agenda.js"></script>
+
+
+</body>
+
+
+</html>

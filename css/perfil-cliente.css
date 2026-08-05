@@ -1,0 +1,310 @@
+/* =================================
+   BeautyDesk - Perfil do Cliente
+================================= */
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Inter',sans-serif;
+}
+
+
+
+body{
+
+    background:#f8fafc;
+    color:#1e293b;
+    display:flex;
+
+}
+
+
+
+/* MENU LATERAL */
+
+.sidebar{
+
+    width:250px;
+    height:100vh;
+    background:#2563eb;
+    color:white;
+    padding:30px 20px;
+    position:fixed;
+
+}
+
+
+.sidebar h2{
+
+    text-align:center;
+    margin-bottom:40px;
+
+}
+
+
+
+.sidebar ul{
+
+    list-style:none;
+
+}
+
+
+
+.sidebar li{
+
+    padding:15px;
+    margin-bottom:10px;
+    border-radius:12px;
+
+}
+
+
+
+.sidebar li:hover,
+.sidebar .active{
+
+    background:rgba(255,255,255,.18);
+
+}
+
+
+
+.sidebar a{
+
+    color:white;
+    text-decoration:none;
+
+}
+
+
+
+
+
+/* ÁREA PRINCIPAL */
+
+.main{
+
+    margin-left:250px;
+    padding:40px;
+    width:calc(100% - 250px);
+
+}
+
+
+
+header{
+
+    margin-bottom:35px;
+
+}
+
+
+
+header h1{
+
+    font-size:32px;
+    margin-bottom:10px;
+
+}
+
+
+
+header p{
+
+    color:#64748b;
+
+}
+
+
+
+
+
+/* CARD CLIENTE */
+
+.cliente-card{
+
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    display:flex;
+    align-items:center;
+    gap:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,.06);
+    margin-bottom:30px;
+
+}
+
+
+
+.avatar{
+
+    width:80px;
+    height:80px;
+    background:#2563eb;
+    color:white;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:35px;
+
+}
+
+
+
+.cliente-card h2{
+
+    margin-bottom:10px;
+
+}
+
+
+
+.cliente-card p{
+
+    color:#64748b;
+    margin:8px 0;
+
+}
+
+
+
+
+
+/* RESUMO */
+
+.resumo{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-bottom:35px;
+
+}
+
+
+
+.box{
+
+    background:white;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.06);
+
+}
+
+
+
+.box h3{
+
+    color:#2563eb;
+    margin-bottom:15px;
+
+}
+
+
+
+.box p{
+
+    font-size:22px;
+    font-weight:700;
+
+}
+
+
+
+
+
+/* HISTÓRICO */
+
+.historico{
+
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.06);
+
+}
+
+
+
+.historico h2{
+
+    margin-bottom:20px;
+
+}
+
+
+
+table{
+
+    width:100%;
+    border-collapse:collapse;
+
+}
+
+
+
+th,
+td{
+
+    padding:15px;
+    text-align:left;
+    border-bottom:1px solid #e2e8f0;
+
+}
+
+
+
+th{
+
+    color:#2563eb;
+
+}
+
+
+
+
+
+/* RESPONSIVO */
+
+@media(max-width:800px){
+
+
+.sidebar{
+
+    width:80px;
+
+}
+
+
+.sidebar h2{
+
+    font-size:14px;
+
+}
+
+
+
+.main{
+
+    margin-left:80px;
+    width:calc(100% - 80px);
+    padding:20px;
+
+}
+
+
+
+.cliente-card{
+
+    flex-direction:column;
+    text-align:center;
+
+}
+
+
+}

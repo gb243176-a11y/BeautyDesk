@@ -1,0 +1,234 @@
+/* =================================
+   BeautyDesk - Checkout
+================================= */
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Inter',sans-serif;
+}
+
+
+
+body{
+
+    background:#f8fafc;
+    color:#1e293b;
+
+}
+
+
+
+
+
+/* HEADER */
+
+.top{
+
+    width:100%;
+    padding:25px 8%;
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+
+
+.top h2{
+
+    color:#2563eb;
+    font-size:28px;
+
+}
+
+
+
+.top a{
+
+    color:#2563eb;
+    text-decoration:none;
+    font-weight:700;
+
+}
+
+
+
+
+
+/* CHECKOUT */
+
+.checkout{
+
+    min-height:75vh;
+    padding:60px 20px;
+    text-align:center;
+
+}
+
+
+
+.checkout h1{
+
+    font-size:42px;
+    color:#2563eb;
+    margin-bottom:15px;
+
+}
+
+
+
+.subtitulo{
+
+    color:#64748b;
+    font-size:18px;
+    margin-bottom:40px;
+
+}
+
+
+
+
+
+/* PLANO */
+
+.plano{
+
+    background:white;
+    max-width:420px;
+    margin:auto;
+    padding:40px;
+    border-radius:25px;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+
+
+.plano h2{
+
+    color:#1e293b;
+    margin-bottom:25px;
+
+}
+
+
+
+
+
+/* PREÇO */
+
+.preco{
+
+    font-size:45px;
+    font-weight:800;
+    color:#2563eb;
+    margin-bottom:30px;
+
+}
+
+
+
+.preco span{
+
+    font-size:18px;
+    color:#64748b;
+    font-weight:400;
+
+}
+
+
+
+
+
+/* LISTA */
+
+ul{
+
+    list-style:none;
+    text-align:left;
+    margin-bottom:30px;
+
+}
+
+
+
+li{
+
+    padding:12px 0;
+    color:#475569;
+
+}
+
+
+
+
+
+/* BOTÃO */
+
+button{
+
+    width:100%;
+    padding:16px;
+    border:none;
+    border-radius:15px;
+    background:#2563eb;
+    color:white;
+    font-size:18px;
+    font-weight:700;
+    cursor:pointer;
+
+}
+
+
+
+button:hover{
+
+    background:#1d4ed8;
+
+}
+
+
+
+
+
+/* FOOTER */
+
+footer{
+
+    background:white;
+    padding:30px;
+    text-align:center;
+    color:#64748b;
+
+}
+
+
+
+
+
+/* MOBILE */
+
+@media(max-width:600px){
+
+
+.checkout h1{
+
+    font-size:32px;
+
+}
+
+
+
+.plano{
+
+    padding:30px;
+
+}
+
+
+
+}

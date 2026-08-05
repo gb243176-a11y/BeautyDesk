@@ -1,0 +1,168 @@
+/* =================================
+   BeautyDesk - Cadastro
+================================= */
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Inter',sans-serif;
+}
+
+
+
+body{
+
+    min-height:100vh;
+    background:#f8fafc;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#1e293b;
+
+}
+
+
+
+/* CONTAINER */
+
+.container{
+
+    width:100%;
+    padding:20px;
+
+}
+
+
+
+
+/* BOX CADASTRO */
+
+.cadastro-box{
+
+    max-width:420px;
+    margin:auto;
+    background:white;
+    padding:45px;
+    border-radius:25px;
+    text-align:center;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+
+
+.cadastro-box h1{
+
+    color:#2563eb;
+    font-size:38px;
+    margin-bottom:15px;
+
+}
+
+
+
+.cadastro-box h2{
+
+    font-size:26px;
+    margin-bottom:10px;
+
+}
+
+
+
+.cadastro-box p{
+
+    color:#64748b;
+    margin-bottom:30px;
+
+}
+
+
+
+/* FORMULÁRIO */
+
+form{
+
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+
+}
+
+
+
+input{
+
+    padding:15px;
+    border:1px solid #dbe2ea;
+    border-radius:12px;
+    font-size:15px;
+
+}
+
+
+
+input:focus{
+
+    outline:none;
+    border-color:#2563eb;
+
+}
+
+
+
+/* BOTÃO */
+
+button{
+
+    margin-top:10px;
+    padding:15px;
+    border:none;
+    border-radius:12px;
+    background:#2563eb;
+    color:white;
+    font-size:16px;
+    font-weight:700;
+    cursor:pointer;
+
+}
+
+
+
+button:hover{
+
+    background:#1d4ed8;
+
+}
+
+
+
+/* LINK */
+
+.cadastro-box a{
+
+    display:block;
+    margin-top:25px;
+    text-decoration:none;
+    color:#2563eb;
+    font-weight:600;
+
+}
+
+
+
+/* MOBILE */
+
+@media(max-width:500px){
+
+
+.cadastro-box{
+
+    padding:30px;
+
+}
+
+
+}
